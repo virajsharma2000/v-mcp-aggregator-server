@@ -61,6 +61,7 @@ robot (llm) can call it like this:
 ```
 
 ---
+![Diagram of MCP Aggregator](pics/arch.png)
 
 okie dokie that’s it!! 💻🌈🐣
 made by viraj da super coder 🧙‍♂️💚
