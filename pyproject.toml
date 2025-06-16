@@ -1,0 +1,15 @@
+[project]
+name = "mcp-aggregator"
+version = "0.1.0"
+description = "Aggregator server that collects MCP tools and performs semantic search using Pinecone."
+authors = [
+    { name="Viraj Sharma", email="virajsharma@sharmaviraj.com" }
+]
+dependencies = [
+    "fastapi>=0.110.0",
+    "uvicorn[standard]>=0.29.0",
+    "requests>=2.31.0",
+    "python-dotenv>=1.0.1",
+    "sentence-transformers>=2.6.1",
+    "pinecone-client>=3.0.0"
+]
